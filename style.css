@@ -26,3 +26,66 @@ button{
     background-color: magenta;
     color: aliceblue;}
    /* ..... products style end ...... */
+/* ...collection style start ....... */
+.start{
+    margin-left: 450px; 
+margin-bottom: 80px;}
+.popular{
+    background-color: rgb(173, 181, 196);
+    width: 80%;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.collections{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        margin-left: 40px;
+        margin-right: 50px;
+        grid-column-gap: 0;
+        grid-row-gap: 20px;}
+    .collections img{
+        width: 150px;
+    margin-top: 10px;}
+    .microphone img{
+    height: 90px;
+}
+.tripod{
+    background-color: aliceblue;
+    height: 280px;
+    width: 170px;
+    }
+    .microphone{
+        background-color: aliceblue;
+    height: 280px;
+    width: 170px;}
+.airbuds{
+    background-color: aliceblue;
+    height: 280px;
+    width: 170px;
+    }
+    .drone{
+        background-color: aliceblue;
+    height: 280px;
+    width: 170px;
+    }
+    .lightsetup{
+        background-color: aliceblue;
+    height: 280px;
+    width: 170px;
+    }
+    .photoshoot{
+        background-color: aliceblue;
+    height: 280px;
+    width: 170px;
+    }
+    
+    
+    
+
+ i{
+        color: chocolate;}
+footer{
+    margin-top: 100px;
+    text-align: center;
+    background-color: darkblue;
+}
